@@ -16,6 +16,8 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" type="text/css">
   </head>
+
+   <!--  ====================== Start Nav Bar =============================  -->
   <body>
     <nav>
       <input type="checkbox" id="check">
@@ -24,11 +26,57 @@
       </label>
       <label class = "logo">GASODUCTO</label>
       <ul>
-        <li><a class="active" href="#">Operadores</a></li>
-        <li><a href="#">Formulario</a></li>
-        <li><a href="#">LogIn</a></li>
+        <li><a href="#">Operadores</a></li>
+        <li><a href="/form.html">Formulario</a></li>
+        <li><a class="active" href="#">LogIn</a></li>
       </ul>
     </nav>
-    
   </body>
+
+   <!--  ====================== Start login area =============================  -->
+  <body>
+     
+    <div class="container">
+      <div class="panel">
+        <div class="row">
+              <div class="col liquid">
+                <h4><i class="fas fa-gas-pump"></i>Gasoducto</h4>
+
+                <!-- Owl-Carousel -->
+              </div>
+              <div class="col login">
+                <form>
+                 
+                  <div class="form-group">
+                    <input type="text" placeholder="Email" class="form-input">
+                    <div class="input-icon">
+                      <i class="fas fa-user"></i>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <input type="password" placeholder="Password" class="form-input">
+                    <div class="input-icon">
+                        <i class="fas fa-user-lock"></i>
+                    </div>
+                  </div>
+
+                  <!--COLOCARLOS DE MANERA HORIZONTAL -->
+                  <div class="btn-display">
+                    <button type="submit" class="btn btn-login"> LOG IN </button>
+                     <button type="submit" class="btn btn-signup">SIGN UP </button>
+                  </div>
+                  
+                  
+                  <div class="follow">
+                    Follow us <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                  </div>
+                </form>
+              </div>
+          </div>
+      </div>
+    </div>
+
+  </body>
+
 </html>
