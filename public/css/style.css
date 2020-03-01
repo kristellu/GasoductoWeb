@@ -171,7 +171,7 @@ section{
   }
   
   .liquid{
-    background: url('images/gasoducto.png');
+    background: url('/public/images/gasoducto.png');
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -695,7 +695,7 @@ textarea{
 
 /*------------//DISEÑO OPERADORES--------*/
 
-/* banner */
+/* banner 
 
 .banner {
   background: url(/images/station.jpg) center no-repeat;
@@ -801,9 +801,9 @@ h3.home-banner-w3 {
   width: 50%;
   font-weight: 700;
   word-spacing: 4px;
-}
+}*/
 
-/* inner banner */
+/* inner banner 
 
 .inner-banner-w3ls {
   background: url(images/station.jpg) no-repeat center;
