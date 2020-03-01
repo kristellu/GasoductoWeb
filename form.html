@@ -1,7 +1,7 @@
 <!doctype html>
+
 <html lang="en" dir="ltr">
   <head>
-
     <title>Gasoducto </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" type="text/css">
   </head>
 
-   <!--  ====================== Start Nav Bar =============================  -->
+  <!--  ====================== Start Nav Bar =============================  -->
   <body>
     <nav>
       <input type="checkbox" id="check">
@@ -26,11 +26,78 @@
       </label>
       <label class = "logo">GASODUCTO</label>
       <ul>
-        <li><a href="#">Operadores</a></li>
+        <li><a href="/operadores.html">Operadores</a></li>
         <li><a href="/form.html">Formulario</a></li>
-        <li><a class="active" href="index.html">LogIn</a></li>
+        <li><a class="active" href="/index.html">LogIn</a></li>
       </ul>
     </nav>
+  <!--  ====================== Start form area =============================  -->
+    <div class="form-questions"> 
+      <form action="#" method="post">
+        <div class="mid-cls">
+          <div class="hotel-left-w3ls">
+            <!--<h2>Test operator</h2>-->
+            <!--Inputs de preguntas-->
+            <div class="main">
+              <div class="form-left-to-w3l">
+                <input type="text" name="name" placeholder="Nombre" required>
+                <div class="clear"></div> 
+              </div>
+              <div class="form-right-to-w3ls">
+                <input type="text" name="last name" placeholder="Apellido" required>
+                <div class="clear"></div> 
+              </div>
+            </div>
+            <div class="main">
+              <div class="form-left-to-w3l">
+                <input type="email" name="email" placeholder="Correo electrónico">
+              </div>
+              <div class="form-right-to-w3ls">
+                <input type="text" name="phone number" placeholder="Número de contacto" required>
+              </div>
+            </div>
+            <!--Botón para seleccionar opción-->
+            <div class="main">
+              <div class="form-right-to-w3ls">
+                <select class="form-control buttom">
+                  <option value>
+                    Calificación del servicio</option>
+                    <option value="category5">5</option>
+                    <option value="category4">4</option>
+                    <option value="category3">3</option>
+                    <option value="category2">2</option>
+                    <option value="category1">1</option>
+                </select>
+              </div>
+              <div class="form-right-to-w3ls">
+                <select class="form-control buttom">
+                  <option value>
+                    Tipo de actividad</option>
+                    <option value="category3">Producción</option>
+                    <option value="category2">Extracción</option>
+                    <option value="category1">Reserva</option>
+                </select>
+              </div>
+            </div>
+            <!--Cuadro de comentarios-->
+            <div class="form-control-w3l">
+              <textarea name="Message" placeholder="Comentarios..." required></textarea>
+            </div>
+            <div class="clear"></div>
+            <div class="btn-display">
+              <a href="/results.html" type="submit" class="btn btn-login" role="button">ENVIAR</a>
+              <br>
+            </div>
+            
+          </div>
+        </div>
+      </form>
+
+    </div>
+
+
+
+
   </body>
 </html>  
 
