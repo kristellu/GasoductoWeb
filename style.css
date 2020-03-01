@@ -150,7 +150,7 @@ section{
     align-items: center;
     height: 100%;
     overflow-y: auto;
-    z-index: -1;
+   
     position: relative;
     
   }
